@@ -13,14 +13,14 @@ def main():
     clock = pygame.time.Clock()
     dt: float = 0.0
     player: Player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    screen.fill("black")
+    
     while True: 
         log_state()
         for event in pygame.event.get() :
             pass
             if(event.type == pygame.QUIT) :
                return
-               
+        screen.fill("black")
         player.update(dt)
         player.draw(screen)
         pygame.display.flip()
