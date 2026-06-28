@@ -1,4 +1,4 @@
-[project]
+ASTEROIDS
 name = "py-asteroids-game"
 version = "0.1.0"
 description = "Add your description here"
